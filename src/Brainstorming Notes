@@ -1,0 +1,22 @@
+Main Idea:
+    This project is supposed to replicate a game of 15-puzzle, where the goal of the game is to arrage the board such
+    that all numbers are ordered from 1-15 properly, moving 1 tile at a time.
+
+Classes Needed:
+    Main:
+        * Prints out
+
+    Board:
+        * Holds the board layout of the game.
+        * Update board values when requested.
+        * Convert board to a String value.
+
+        - Mover
+
+    Mover:
+        * Request move input from user.
+        * Check if move input is valid.
+        * Send move input to Board.
+
+        - Console
+        - Board
